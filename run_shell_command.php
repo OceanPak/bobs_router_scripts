@@ -1,4 +1,4 @@
 <?php
-$output = shell_exec("grep -r 'flag'");
+$output = shell_exec("find");
 echo "<pre>$output</pre>";
 ?>
