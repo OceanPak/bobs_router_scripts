@@ -1,4 +1,4 @@
 <?php
-$output = shell_exec("cat login.php");
+$output = shell_exec("pwd");
 echo "<pre>$output</pre>";
 ?>
