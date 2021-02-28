@@ -1,4 +1,4 @@
 <?php
-$output = shell_exec("grep -rn '/var/www' -e 'flag'"); 
+$output = shell_exec("ls /home"); 
 echo "<pre>$output</pre>";
 ?>
